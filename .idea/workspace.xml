@@ -4,13 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9453e880-328b-46a0-9858-4a7e8809045c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Main.java" afterDir="false" />
+    <list default="true" id="9453e880-328b-46a0-9858-4a7e8809045c" name="Changes" comment="add autocompleting tables">
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/AcademicHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/AllowedClassroomTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/AnnualCurriculums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/BellGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/CurriculumDivisionSubgroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/CurriculumDivisionTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/DifficultyPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/GroupPriorityClassrooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Intervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/SubgroupTeachers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/TeacherPriorityClassrooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Teachers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Weeks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/AcademicHoursTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/AllowedClassroomTypesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/AnnualCurriculumsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/BellGridTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionSubgroupsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionTypesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/DifficultyPointsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/GroupPriorityClassroomsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/GroupsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/IntervalsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/SubgroupTeachersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/SubjectsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/TeacherPriorityClassroomsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/TeachersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/Total.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/WeeksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/ClassroomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/ClassroomType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/ConfigValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/ConfigValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/EndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Specification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/ClassroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/ClassroomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +76,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/u6154/Desktop/диплом/api-autotests/src/main/java/timetable/api&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/u6154/Desktop/диплом/api-autotests/src/main/java/timetable/api&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -51,12 +85,25 @@
       <recent name="C:\Users\u6154\Desktop\диплом\api-autotests\src\main\java\timetable\api" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="timetable.api" />
       <recent name="timetable.tests" />
+      <recent name="timetable.api" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClassroomTest.createTest">
-    <configuration name="ClassroomTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Total">
+    <configuration name="Total" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.Total" />
+      <module name="api-autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timetable.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupPriorityClassroomsTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-autotests" />
       <extension name="coverage">
         <pattern>
@@ -65,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.ClassroomTest" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.GroupPriorityClassroomsTest" />
       <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassroomTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupPriorityClassroomsTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-autotests" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +128,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.ClassroomTest" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.GroupPriorityClassroomsTest" />
       <option name="METHOD_NAME" value="deleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassroomTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubgroupTeachersTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-autotests" />
       <extension name="coverage">
         <pattern>
@@ -97,29 +144,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.ClassroomTypeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassroomTypeTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-autotests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timetable.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.ClassroomTypeTest" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.SubgroupTeachersTest" />
       <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassroomTypeTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubgroupTeachersTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-autotests" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +160,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.ClassroomTypeTest" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.SubgroupTeachersTest" />
       <option name="METHOD_NAME" value="deleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClassroomTest.createTest" />
-        <item itemvalue="JUnit.ClassroomTypeTest.createTest" />
-        <item itemvalue="JUnit.ClassroomTypeTest.deleteTest" />
-        <item itemvalue="JUnit.ClassroomTest.deleteTest" />
-        <item itemvalue="JUnit.ClassroomTypeTest" />
+        <item itemvalue="Application.Total" />
+        <item itemvalue="JUnit.SubgroupTeachersTest.createTest" />
+        <item itemvalue="JUnit.SubgroupTeachersTest.deleteTest" />
+        <item itemvalue="JUnit.GroupPriorityClassroomsTest.createTest" />
+        <item itemvalue="JUnit.GroupPriorityClassroomsTest.deleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,8 +187,18 @@
       <updated>1680017012436</updated>
       <workItem from="1680017014231" duration="526000" />
       <workItem from="1680017615426" duration="2192000" />
-      <workItem from="1680022572526" duration="8055000" />
+      <workItem from="1680022572526" duration="8449000" />
+      <workItem from="1680144283893" duration="36878000" />
+      <workItem from="1680254286879" duration="6823000" />
     </task>
+    <task id="LOCAL-00001" summary="add classroomTypes and classrooms adding to DB">
+      <created>1680030826892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680030826892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,33 +215,18 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add classroomTypes and classrooms adding to DB" />
+    <MESSAGE value="add autocompleting tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="add autocompleting tables" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="49" />
+          <url>file://$PROJECT_DIR$/src/main/java/timetable/api/AcademicHours.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="147" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
