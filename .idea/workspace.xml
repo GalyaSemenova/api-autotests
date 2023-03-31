@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9453e880-328b-46a0-9858-4a7e8809045c" name="Changes" comment="add autocompleting tables">
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/AcademicHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/AllowedClassroomTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/AnnualCurriculums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/BellGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/CurriculumDivisionSubgroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/CurriculumDivisionTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/DifficultyPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/GroupPriorityClassrooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Intervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/SubgroupTeachers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Subjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/TeacherPriorityClassrooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Teachers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Weeks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/AcademicHoursTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/AllowedClassroomTypesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/AnnualCurriculumsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/BellGridTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionSubgroupsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionTypesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/DifficultyPointsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/GroupPriorityClassroomsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/GroupsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/IntervalsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/SubgroupTeachersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/SubjectsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/TeacherPriorityClassroomsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/TeachersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/Total.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/WeeksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Classroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/ClassroomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/ClassroomType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/ConfigValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/ConfigValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/EndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/Specification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/ClassroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/ClassroomTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9453e880-328b-46a0-9858-4a7e8809045c" name="Changes" comment="add autocompleting tables" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +149,7 @@
       <workItem from="1680017615426" duration="2192000" />
       <workItem from="1680022572526" duration="8449000" />
       <workItem from="1680144283893" duration="36878000" />
-      <workItem from="1680254286879" duration="6823000" />
+      <workItem from="1680254286879" duration="7344000" />
     </task>
     <task id="LOCAL-00001" summary="add classroomTypes and classrooms adding to DB">
       <created>1680030826892</created>
@@ -198,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680030826892</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add autocompleting tables">
+      <created>1680261610169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261610169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
