@@ -31,5 +31,8 @@ public final class EndPoints {
   public static final String GROUPS_URL = BASE_URL + "/api/group/groups";
   public static final String GROUPS_PRIORITY_CLASSROOMS_URL = BASE_URL + "/api/group/priority_classrooms";
   public static final String SUBGROUP_TEACHERS_URL = BASE_URL + "/api/group/subgroup_teachers";
+  public static final String TIMETABLES_URL = BASE_URL + "/api/timetable/timetables";
+  public static final String LESSONS_URL = BASE_URL + "/api/timetable/lessons";
+  public static final String PLACED_LESSONS_URL = BASE_URL + "/api/timetable/placed_lessons";
 
 }

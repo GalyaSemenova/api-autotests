@@ -1,5 +1,7 @@
 package timetable.tests;
 
+import timetable.api.PlacedLessons;
+
 public class Total {
     static ClassroomTypeTest ctt;
     static ClassroomTest ct;
@@ -18,6 +20,9 @@ public class Total {
     static GroupsTest gt;
     static GroupPriorityClassroomsTest gpct;
     static SubgroupTeachersTest stt;
+    static TimetablesTest ttt;
+    static LessonsTest lt;
+
 
     public static void main(String[] args) throws Exception {
         ctt = new ClassroomTypeTest();
@@ -42,6 +47,9 @@ public class Total {
         gt = new GroupsTest();
         gpct = new GroupPriorityClassroomsTest();
         stt = new SubgroupTeachersTest();
+
+        ttt = new TimetablesTest();
+        lt = new LessonsTest();
 
         create();
 //        delete();
@@ -71,9 +79,13 @@ public class Total {
         gt.createTest();
         gpct.createTest();
         stt.createTest();
+
+        ttt.createTest();
+        lt.createTest();
     }
 
     public static void delete() throws  Exception {
+        lt.deleteTest();
 
         stt.deleteTest();
         gpct.deleteTest();
@@ -97,6 +109,8 @@ public class Total {
 
         ct.deleteTest();
         ctt.deleteTest();
+
+        ttt.deleteTest();
 
     }
 }

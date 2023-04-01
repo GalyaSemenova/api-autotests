@@ -40,6 +40,12 @@ public class SubgroupTeachersTest {
     }
 
     @Test
+    public void getAll() {
+        SubgroupTeachers.getAll();
+        var m = ConfigValue.SUBGROUP_TEACHERS_LIST;
+    }
+
+    @Test
     public void deleteTest() {
         try {
             SubgroupTeachers.deleteAll();

@@ -29,6 +29,9 @@ public final class ConfigValue {
   public static List<String> GROUPS_LIST = new ArrayList<>();
   public static List<String> GROUPS_PRIORITY_CLASSROOMS_LIST = new ArrayList<>();
   public static List<String> SUBGROUP_TEACHERS_LIST = new ArrayList<>();
+  public static List<Integer> TIMETABLES_LIST = new ArrayList<>();
+  public static List<String> LESSONS_LIST = new ArrayList<>();
+  public static List<String> PLACED_LESSONS_LIST = new ArrayList<>();
 
   public static int CODE_200 = 200;
   public static int CODE_201 = 201;

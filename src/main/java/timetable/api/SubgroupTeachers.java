@@ -63,8 +63,9 @@ public class SubgroupTeachers {
                     String division_type_id = ((JSONObject) o).get("division_type_id").toString();
                     String subgroup_num = ((JSONObject) o).get("subgroup_num").toString();
                     String subject_id = ((JSONObject) o).get("subject_id").toString();
+                    String teacher_id = ((JSONObject) o).get("teacher_id").toString();
 
-                    ConfigValue.SUBGROUP_TEACHERS_LIST.add(group_id + " " + division_type_id + " " + subgroup_num + " " + subject_id);
+                    ConfigValue.SUBGROUP_TEACHERS_LIST.add(group_id + " " + division_type_id + " " + subgroup_num + " " + subject_id + " " + teacher_id);
                 }
             }
         }

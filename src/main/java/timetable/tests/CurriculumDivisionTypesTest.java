@@ -17,6 +17,8 @@ public class CurriculumDivisionTypesTest {
         types.add(new CurriculumDivisionTypes("По полу"));
         types.add(new CurriculumDivisionTypes("Основное деление"));
         types.add(new CurriculumDivisionTypes("Уровень англ"));
+        types.add(new CurriculumDivisionTypes("Общ"));
+
 
         for (CurriculumDivisionTypes type : types) {
             int actual = type.create().statusCode();

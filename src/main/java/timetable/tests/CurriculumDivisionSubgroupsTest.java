@@ -20,6 +20,7 @@ public class CurriculumDivisionSubgroupsTest {
         subgroups.add(new CurriculumDivisionSubgroups("подгруппа 3", ConfigValue.CURRICULUM_DIVISION_TYPES_LIST.get(1), 3));
         subgroups.add(new CurriculumDivisionSubgroups("продвинутый", ConfigValue.CURRICULUM_DIVISION_TYPES_LIST.get(2), 1));
         subgroups.add(new CurriculumDivisionSubgroups("базовый", ConfigValue.CURRICULUM_DIVISION_TYPES_LIST.get(2), 2));
+        subgroups.add(new CurriculumDivisionSubgroups("общ", ConfigValue.CURRICULUM_DIVISION_TYPES_LIST.get(3), 1));
 
         for (CurriculumDivisionSubgroups subgroup : subgroups) {
             int actual = subgroup.create().statusCode();
