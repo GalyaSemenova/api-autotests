@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9453e880-328b-46a0-9858-4a7e8809045c" name="Changes" comment="add autocompleting tables">
+    <list default="true" id="9453e880-328b-46a0-9858-4a7e8809045c" name="Changes" comment="add autocompleting tables (start placedLessons)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/ConfigValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/ConfigValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/EndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/SubgroupTeachers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/SubgroupTeachers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionSubgroupsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionSubgroupsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionTypesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/CurriculumDivisionTypesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/SubgroupTeachersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/SubgroupTeachersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/api/PlacedLessons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/api/PlacedLessons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/AllowedClassroomTypesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/AllowedClassroomTypesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/GroupsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/GroupsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/PlacedLessonsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/PlacedLessonsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/timetable/tests/Total.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timetable/tests/Total.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +56,21 @@
       <recent name="timetable.api" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LessonsTest.createTest">
-    <configuration name="LessonsTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Total">
+    <configuration name="Total" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.Total" />
+      <module name="api-autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timetable.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllowedClassroomTypesTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-autotests" />
       <extension name="coverage">
         <pattern>
@@ -68,14 +79,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.LessonsTest" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.AllowedClassroomTypesTest" />
       <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LessonsTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupsTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-autotests" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +95,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.LessonsTest" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.GroupsTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupsTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timetable.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="timetable.tests" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.GroupsTest" />
       <option name="METHOD_NAME" value="deleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubgroupTeachersTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlacedLessonsTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-autotests" />
       <extension name="coverage">
         <pattern>
@@ -100,39 +127,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.SubgroupTeachersTest" />
-      <option name="METHOD_NAME" value="getAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimetablesTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-autotests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timetable.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.TimetablesTest" />
-      <option name="METHOD_NAME" value="createTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimetablesTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-autotests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timetable.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timetable.tests" />
-      <option name="MAIN_CLASS_NAME" value="timetable.tests.TimetablesTest" />
+      <option name="MAIN_CLASS_NAME" value="timetable.tests.PlacedLessonsTest" />
       <option name="METHOD_NAME" value="deleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LessonsTest.createTest" />
-        <item itemvalue="JUnit.LessonsTest.deleteTest" />
-        <item itemvalue="JUnit.SubgroupTeachersTest.getAll" />
-        <item itemvalue="JUnit.TimetablesTest.createTest" />
-        <item itemvalue="JUnit.TimetablesTest.deleteTest" />
+        <item itemvalue="Application.Total" />
+        <item itemvalue="JUnit.GroupsTest.createTest" />
+        <item itemvalue="JUnit.AllowedClassroomTypesTest.createTest" />
+        <item itemvalue="JUnit.PlacedLessonsTest.deleteTest" />
+        <item itemvalue="JUnit.GroupsTest.deleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +159,10 @@
       <workItem from="1680254286879" duration="8097000" />
       <workItem from="1680272308995" duration="10855000" />
       <workItem from="1680309972815" duration="1855000" />
+      <workItem from="1680319954575" duration="95000" />
+      <workItem from="1680322740190" duration="1536000" />
+      <workItem from="1680428867813" duration="3063000" />
+      <workItem from="1680510501915" duration="12027000" />
     </task>
     <task id="LOCAL-00001" summary="add classroomTypes and classrooms adding to DB">
       <created>1680030826892</created>
@@ -186,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680262497576</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add autocompleting tables (start placedLessons)">
+      <created>1680320024959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680320024959</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +212,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add classroomTypes and classrooms adding to DB" />
     <MESSAGE value="add autocompleting tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="add autocompleting tables" />
+    <MESSAGE value="add autocompleting tables (start placedLessons)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add autocompleting tables (start placedLessons)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,6 +227,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/timetable/tests/SubgroupTeachersTest.java</url>
           <line>44</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/timetable/tests/AllowedClassroomTypesTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/timetable/tests/AllowedClassroomTypesTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/timetable/tests/AllowedClassroomTypesTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

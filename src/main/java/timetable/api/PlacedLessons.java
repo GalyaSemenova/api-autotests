@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlacedLessons {
-    private final int start_date;
-    private final int end_date;
+    private final long start_date;
+    private final long end_date;
     private final int subject_id;
     private final String commentary;
     private final int teacher_id;
@@ -23,7 +23,7 @@ public class PlacedLessons {
     private final boolean is_in_transition;
     private final boolean is_canceled;
 
-    public PlacedLessons(int start_date, int end_date, int subject_id, String commentary, int teacher_id, int classroom_id, int group_id, int division_type_id, int subgroup_num, boolean is_replacement, boolean is_in_transition, boolean is_canceled) {
+    public PlacedLessons(long start_date, long end_date, int subject_id, String commentary, int teacher_id, int classroom_id, int group_id, int division_type_id, int subgroup_num, boolean is_replacement, boolean is_in_transition, boolean is_canceled) {
         this.start_date = start_date;
         this.end_date = end_date;
         this.subject_id = subject_id;
@@ -37,7 +37,6 @@ public class PlacedLessons {
         this.is_in_transition = is_in_transition;
         this.is_canceled = is_canceled;
     }
-
 
     public Response create() throws Exception {
         JSONObject requestBody = new JSONObject();

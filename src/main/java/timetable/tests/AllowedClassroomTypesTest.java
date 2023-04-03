@@ -19,7 +19,7 @@ public class AllowedClassroomTypesTest {
 
         List<AllowedClassroomTypes> types = new ArrayList<>();
         for (int i = 0; i < ConfigValue.SUBJECTS_LIST.size(); i++) {
-                int typeId = rand.nextInt(typesList.size()) + 1;
+                int typeId = rand.nextInt(typesList.size());
                 types.add(new AllowedClassroomTypes(i + 1, typesList.get(typeId)));
         }
 
