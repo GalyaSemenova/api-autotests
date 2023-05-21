@@ -63,7 +63,7 @@ public class Specification {
         JSONObject requestBody = new JSONObject();
         for (String[] param : params) {
             requestBody.put(param[0],
-                    param[0].equals("capacity") || param[0].equals("id") || param[0].equals("classroom_type_id") || param[0].equals("classroom_id") || param[0].equals("bell_grid_id") || param[0].equals("num") || param[0].equals("year_of_study") || param[0].equals("annual_curriculum_id") ? Integer.parseInt(param[1]) : param[1]);
+                    param[0].equals("capacity") || param[0].equals("id") || param[0].equals("classroom_type_id") || param[0].equals("classroom_id") || param[0].equals("bell_grid_id") || param[0].equals("num") || param[0].equals("year_of_study")|| param[0].equals("number_of_hours") || param[0].equals("annual_curriculum_id") ? Integer.parseInt(param[1]) : param[1]);
         }
 
         Response response = Specification.sendRequest(requestBody, endPoints, Specification.requestType.POST);

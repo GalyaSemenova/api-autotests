@@ -14,16 +14,16 @@ public class TeachersTest {
     public void createTest() throws Exception {
         List<Teachers> teachers = new ArrayList<>();
 
-        teachers.add(new Teachers("Иван", "Иванов", "Леопольдович", ""));
-        teachers.add(new Teachers("Мария", "Мариева", "Леопольдовна", ""));
-        teachers.add(new Teachers("Николай", "Николаев", "Николаевич", ""));
-        teachers.add(new Teachers("Светлана", "Курцына", "Петровна", ""));
-        teachers.add(new Teachers("Нина", "Котикова", "Константиновна", ""));
-        teachers.add(new Teachers("Евдоким", "Иванов", "Евдокимович", ""));
-        teachers.add(new Teachers("Софья", "Солнце", "Марсовна", ""));
-        teachers.add(new Teachers("Игнат", "Стул", "Александрович", ""));
-        teachers.add(new Teachers("Дарья", "Симбухова", "Евгеньевна", ""));
-        teachers.add(new Teachers("Дарий", "Симбухов", "Евгеньевич", ""));
+        teachers.add(new Teachers("Иван", "Иванов", "Леопольдович", "", 30));
+        teachers.add(new Teachers("Мария", "Мариева", "Леопольдовна", "", 30));
+        teachers.add(new Teachers("Николай", "Николаев", "Николаевич", "", 30));
+        teachers.add(new Teachers("Светлана", "Курцына", "Петровна", "", 30));
+        teachers.add(new Teachers("Нина", "Котикова", "Константиновна", "", 30));
+        teachers.add(new Teachers("Евдоким", "Иванов", "Евдокимович", "",30));
+        teachers.add(new Teachers("Софья", "Солнце", "Марсовна", "", 30));
+        teachers.add(new Teachers("Игнат", "Стул", "Александрович", "", 30));
+        teachers.add(new Teachers("Дарья", "Симбухова", "Евгеньевна", "", 30));
+        teachers.add(new Teachers("Дарий", "Симбухов", "Евгеньевич", "", 30));
 
         for (Teachers teacher : teachers) {
             int actual = teacher.create().statusCode();

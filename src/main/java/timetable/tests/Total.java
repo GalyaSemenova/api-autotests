@@ -58,18 +58,18 @@ public class Total {
 
     public static void create() throws  Exception {
 
-        ctt.createTest();
-        ct.createTest();
+//        ctt.createTest();
+//        ct.createTest();
+//
+//        bgt.createTest();
+//        wt.createTest();
+//        it.createTest();
+//
+//        st.createTest();
+//        actt.createTest();
+//        dpt.createTest();
 
-        bgt.createTest();
-        wt.createTest();
-        it.createTest();
-
-        st.createTest();
-        actt.createTest();
-        dpt.createTest();
-
-        tt.createTest();
+//        tt.createTest();
         tpct.createTest();
 
         cdtt.createTest();

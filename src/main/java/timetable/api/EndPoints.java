@@ -10,7 +10,7 @@ public final class EndPoints {
   private EndPoints() {
   }
 
-  private static final String BASE_URL = "http://192.168.1.78";
+  private static final String BASE_URL = "http://192.168.0.102";
 
   public static final String LOGIN_URL = BASE_URL + "/api/sessions/login";
   public static final String CLASSROOM_TYPE_URL = BASE_URL + "/api/classroom/types";
